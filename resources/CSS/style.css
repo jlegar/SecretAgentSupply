@@ -1,0 +1,64 @@
+html {
+  background-color: black;
+  color: white;
+}
+
+header {
+  padding: 5% 15%;
+  margin: 0;
+}
+
+#banner {
+  background-image: url('../images/moto.jpeg');
+  background-size: cover;
+  height: 25%;
+}
+
+#banner__info {
+  display: inline-block;
+  margin: 10% 15%;
+}
+
+nav {
+  background-color: red;
+  color: white;
+  margin: 0;
+}
+
+nav li {
+  padding: 10px 25px;
+  margin: 0;
+}
+
+main {
+  background-color: white;
+  color: black;
+}
+
+footer {
+  padding: 10% 15%;
+  margin: 0;
+}
+
+#grid-product {
+  display: grid;
+  grid: 1fr / 3fr;
+}
+
+#grid-product p {
+  background-color: black;
+  color: white;
+}
+
+.product {
+  border: 2px solid black;
+}
+
+.info-block {
+  display: inline-block;
+}
+
+.info-block__header {
+  background-color: black;
+  color: white;
+}
